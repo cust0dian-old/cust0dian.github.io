@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Serg Nesterov — full stack developer</title>
+    <meta
+      name="description"
+      content="Personal website of Serg Nesterov, full stack web developer."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      @font-face {
+        font-family: system-ui;
+        font-style: normal;
+        font-weight: 500;
+        src: local(".SFNS-Medium"), local(".SFNSText-Medium"),
+          local(".HelveticaNeueDeskInterface-MediumP4"),
+          local(".LucidaGrandeUI"), local("Segoe UI Semibold"),
+          local("Ubuntu Medium"), local("Roboto-Medium"),
+          local("DroidSans-Bold"), local("Tahoma Bold");
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        height: 100%;
+        font-family: system-ui;
+        font-weight: 500;
+      }
+
+      body {
+        margin: 0;
+        padding: calc(10vmin + 2rem);
+        line-height: 1.3;
+        background-color: hsl(45, 100%, 97.5%);
+      }
+
+      .paragraph {
+        margin: 0;
+        font-size: calc(1.25vw + 1.5rem);
+        letter-spacing: 0.02em;
+        color: hsl(212, 12%, 30%);
+      }
+      .paragraph + .paragraph {
+        margin-top: 0.6667em;
+      }
+
+      .link {
+        color: inherit;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="paragraph">
+        Hi! I’m Serg and I make things that people want to use.
+      </p>
+      <p class="paragraph">
+        <a class="link" href="mailto:serg@effectful.software">Contact me</a> or
+        <a class="link" href="/resume.pdf">read my resume</a>.
+      </p>
+    </main>
+  </body>
+</html>
